@@ -16,6 +16,8 @@ The second step was to filter the data based on the client’s needs: goals and 
 I found two specific difficulties. One was to understand the parameters for some of the functions and the other, how to edit some cosmetic details on the charts. Both difficulties were solved by finding examples on the web.
 
 ### Analysis of Outcomes Based on Launch Date
+![alt text](https://github.com/yoyoFC/kickstarter-analysis/blob/main/Outcomes_vs_Goals.PNG)
+
 * There is more probability of success if the launch date is between April and July.
 * The successful and failed curves tend to come together during December. This indicates that during this month there will be around 50% of probability for failure. I would recommend to not launching the play at the end of the year.
 
