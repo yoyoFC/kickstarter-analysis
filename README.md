@@ -10,29 +10,29 @@ We are going to analyze 1047 samples between the period of 2009 to 2017 to obtai
 This analysis started with a data sample of 4114 kickstarts campaigns, which included information about launching date, financing goals and results labeled as “outcome”. 
 The first step was to organize the data in an accessible and understandable way. In some cases, I had to modify the column format and in others, re-use the information available to create new column for a better data understanding (i.e. convert UNIX time stamp in human-readable format).
 
-<img src="https://user-images.githubusercontent.com/88695570/130395190-11dd648c-bc19-4c1d-b21c-90bc11092a9f.png" width=80% height=80%>
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130395190-11dd648c-bc19-4c1d-b21c-90bc11092a9f.png" width=80% height=80%>
 
 The second step was to filter the data based on the client’s needs: goals and the subcategory “plays”. Finally, with this filtered information I was able to build charts and tables to visualize the results. 
 
-<img src="https://user-images.githubusercontent.com/88695570/130394285-fd404d05-a171-4e5f-9d5f-8c4c85961edf.png" width=70% height=70%>
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130394285-fd404d05-a171-4e5f-9d5f-8c4c85961edf.png" width=70% height=70%>
 
 ### Challenges and Difficulties Encountered
 I found two specific difficulties. Both difficulties were solved by finding examples on the web.
 
 * **Parameters for some of the excel functions:** It is very important insert the correct values for the parameters because excel does not describe where could be the syntax error.
 
-<img src="https://user-images.githubusercontent.com/88695570/130396129-26c75c62-4776-4dc7-b471-55a1923b97a1.png">
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130396129-26c75c62-4776-4dc7-b471-55a1923b97a1.png">
 
 * **Cosmetic details on the charts:** I found some difficulties editing the legends and the resizing the chart space. 
 
-<img src="https://user-images.githubusercontent.com/88695570/130396132-bde85445-47dd-478d-aefe-60cb9f0c82ee.png" width=40% height=40% >
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130396132-bde85445-47dd-478d-aefe-60cb9f0c82ee.png" width=40% height=40% >
 
 ### Analysis of Outcomes Based on Launch Date
 
 1. There is more probability of success if the launch date is between April and July.
 2. The successful and failed curves tend to come together during December. This indicates that during this month there will be around 50% of probability for failure. I would recommend to not launching the play at the end of the year.
 
-<img src="https://user-images.githubusercontent.com/88695570/130397342-2af1d9ec-091f-4a33-a969-1bfe1fbe42cc.png">
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130397342-2af1d9ec-091f-4a33-a969-1bfe1fbe42cc.png">
 
 ### Analysis of Outcomes Based on Goals
 1. The biggest successful percentage is registered when the goal is lower than USD 1,000.00.
@@ -40,7 +40,7 @@ I found two specific difficulties. Both difficulties were solved by finding exam
 We can deduce that the projects with a goal lower than USD 5,000.00 in funding are the most common in the market and end up obtaining a greater success result.
 3. As the goal value increases, the chances of success decrease up to the point where it becomes a complete failure. I would recommend our client to consider a limit of USD 20,000 to obtain better results.
 
-<img src="https://user-images.githubusercontent.com/88695570/130398271-be7ed35e-8edf-4bba-b5e7-36301357b5c0.png">
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130398271-be7ed35e-8edf-4bba-b5e7-36301357b5c0.png">
 
 ## Dataset Limitation
 ### Up-to-date Kickstart data
