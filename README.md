@@ -40,6 +40,8 @@ I found two specific difficulties. Both difficulties were solved by finding exam
 We can deduce that the projects with a goal lower than USD 5,000.00 in funding are the most common in the market and end up obtaining a greater success result.
 3. As the goal value increases, the chances of success decrease up to the point where it becomes a complete failure. I would recommend our client to consider a limit of USD 20,000 to obtain better results.
 
+<img src="https://user-images.githubusercontent.com/88695570/130398271-be7ed35e-8edf-4bba-b5e7-36301357b5c0.png">
+
 ## Dataset Limitation
 ### Up-to-date Kickstart data
 Ideally, I would like to analyze more recent data (the newest data was registered in 2017). With new data, I would be able to provide observations and suggestions according to the current year. 
