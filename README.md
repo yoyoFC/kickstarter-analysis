@@ -64,6 +64,8 @@ In my opinion, the dataset is missing information of how long the play was on th
 1. We have the information of the funding campaign period (start and end date). By subtracting these dates we can obtain the total number of days.  
 In this table we can notice that the average days for a successful campaign is around 30. This information might not be relevant when the client would like to know more about the “launch date correlation”, but it is a valuable reference for future projects.
 
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130536901-ca20e057-bdb8-4940-900a-1720eed611ba.png">
+ 
 2. The mean of backers for a successful theater campaign based on the dataset is 56 and the median value is 39. This is the range where our client should consider the number of backers for her campaign. 
 As an additional comment, the maximum number of backers found is 930. This result can be considered as complement for the comments on the section 6.1
 
