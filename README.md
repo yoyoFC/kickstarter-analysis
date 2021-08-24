@@ -7,8 +7,8 @@ We are going to analyze 1047 samples between the period of 2009 to 2017 to obtai
 
 ## Analysis and Challenges
 ### Procedure
-This analysis started with a data sample of 4114 kickstarts campaigns, which included information about launching date, financing goals and results labeled as “outcome”. 
-The first step was to organize the data in an accessible and understandable way. In some cases, I had to modify the column format and in others, re-use the information available to create new column for a better data understanding (i.e. convert UNIX time stamp in human-readable format).
+This analysis started with a raw data sample of 4114 kickstarts campaigns, which included information about launching date, financing goals and results labeled as “outcome”. 
+The first step was to organize the data in an accessible and understandable way. In some cases, I had to modify the column format and in others, re-use the information available to create new columns for a better data understanding (i.e. convert UNIX time stamp in human-readable format).
 
 <p align="center"><img src="https://user-images.githubusercontent.com/88695570/130395190-11dd648c-bc19-4c1d-b21c-90bc11092a9f.png" width=80% height=80%>
 
@@ -67,7 +67,9 @@ In this table we can notice that the average days for a successful campaign is a
 <p align="center"><img src="https://user-images.githubusercontent.com/88695570/130536901-ca20e057-bdb8-4940-900a-1720eed611ba.png">
  
 2. The mean of backers for a successful theater campaign based on the dataset is 56 and the median value is 39. This is the range where our client should consider the number of backers for her campaign. 
-As an additional comment, the maximum number of backers found is 930. This result can be considered as complement for the comments on the section 6.1
-
-3. It is possible to provide an overview of the data distribution based on the successful goals for “plays”. From this plot, I can suggest to produce the plays for less than USD 4,101.00 
  
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130650789-fec9cc7d-1710-4c3c-9e4f-13c5c9787393.png">
+ 
+3. It is possible to provide an overview of the data distribution based on the successful goals for “plays”. From this plot, I can suggest to produce other plays for less than USD 4,101.00 to obtain better results. 
+ 
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130651304-2dadf19e-4607-4679-9234-f932643ab89d.png">
