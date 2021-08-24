@@ -64,12 +64,16 @@ In my opinion, the dataset is missing information of how long the play was on th
 1. We have the information of the funding campaign period (start and end date). By subtracting these dates we can obtain the total number of days.  
 In this table we can notice that the average days for a successful campaign is around 30. This information might not be relevant when the client would like to know more about the “launch date correlation”, but it is a valuable reference for future projects.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130536901-ca20e057-bdb8-4940-900a-1720eed611ba.png">
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130653981-2135852d-ccc3-45e9-b1f6-431eb8a8a8c7.png">
  
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130653989-93f2f874-8848-4593-a2dc-c1b07b0e6b0a.png">
+
 2. The mean of backers for a successful theater campaign based on the dataset is 56 and the median value is 39. This is the range where our client should consider the number of backers for her campaign. 
  
-<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130650789-fec9cc7d-1710-4c3c-9e4f-13c5c9787393.png">
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130654558-d11de986-17ee-4cd4-b03c-448ba0f57c5f.png">
  
-3. It is possible to provide an overview of the data distribution based on the successful goals for “plays”. From this plot, I can suggest to produce other plays for less than USD 4,101.00 to obtain better results. 
- 
-<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130651304-2dadf19e-4607-4679-9234-f932643ab89d.png">
+3. It is possible to provide an overview of the data distribution based on the successful goals for theater plays. On the following table, we have statistic results related to the mean, median and the standard deviation. Based on these results we can suggest a funding range between USD 2,500.00 to 4,101.00  to obtain successful results for new campaigns.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130654724-304f0782-d6d9-45d8-b373-67dbb4cfdbe1.png">
+
+<p align="center"><img src="https://user-images.githubusercontent.com/88695570/130654565-9e142aaa-b6a0-4a6c-ac32-131c2dfc90af.png">
